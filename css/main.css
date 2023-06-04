@@ -1,0 +1,66 @@
+/* GLOBAL STYLES */
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #4C4E52;
+}
+
+h2 {
+    color: #4C4E52;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #4C4E52;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* HEADER STYLES */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: #dcae1d;
+    color: white;
+    z-index: 9999;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-bar {
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav {
+    float: right;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+/* BODY STYLES*/
+body {
+    background-color: #a7d2cb;
+    padding-top: 50px;
+}
+
+.name {
+    font-family: 'Yellowtail', cursive;
+    color: #c98474;
+    font-size: 80px;
+    font-weight: lighter;
+}
